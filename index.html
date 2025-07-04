@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Formulário</title>
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/variaveis.css" />
+    <link rel="stylesheet" href="src/css/global.css" />
+    <link rel="stylesheet" href="src/css/responsivo.css" />
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">WebSite</div>
+            <ul id="menu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Formulário de Contato</h1>
+        </section>
+
+        <section id="sobre">
+            <p>Retorno em até 72 horas para as suas dúvidas.</p>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="contactForm" class="contactForm">
+                <input type="text" id="name" placeholder="Seu nome" required />
+                <input type="email" id="email" placeholder="Seu e-mail" required />
+                <textarea id="message" placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="form-message"></div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 MeuSite</p>
+    </footer>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>

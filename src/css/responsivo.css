@@ -1,0 +1,14 @@
+/* Menu responsivo */
+@media (max-width: 768px) {
+  #menu {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+/* Formulário responsivo */
+@media (max-width: 500px) {
+  .contactForm {
+    padding: 1rem;
+  }
+}
