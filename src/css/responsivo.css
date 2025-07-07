@@ -1,6 +1,6 @@
 /* Menu responsivo */
 @media (max-width: 768px) {
-  #menu {
+  .menu {
     flex-direction: column;
     gap: 0.5rem;
   }

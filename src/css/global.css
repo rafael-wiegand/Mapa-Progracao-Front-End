@@ -25,19 +25,19 @@ body {
   font-size: 1.5rem;
 }
 
-#menu {
+.menu {
   list-style: none;
   display: flex;
   gap: 1rem;
 }
 
-#menu li a {
+.menu li a {
   color: var(--cor-branca);
   text-decoration: none;
   padding: 0.5rem;
 }
 
-#menu li a:hover {
+.menu li a:hover {
   color: var(--cor-secundaria);
 }
 
@@ -98,9 +98,37 @@ section h2 {
 
 /* Rodapé */
 footer {
-  text-align: center;
-  padding: 1rem;
+   position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;  /* garante 100% da largura */
   background: var(--cor-primaria);
   color: var(--cor-branca);
-  font-size: 0.9rem;
+  padding: 1rem; /* fixo, ajusta conforme desejado */
+  text-align: center;
+}
+
+
+
+.outer-shadow{
+    box-shadow: 3px -3px #222237, -3px -3px 3px #454545;
+}
+
+.redes-sociais a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 0 4px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.redes-sociais a:hover{
+    color: var(--cor-secundaria);
+}
+/*alinhamento vertical*/
+.redes-sociais a i{
+    line-height: 40px;
 }
