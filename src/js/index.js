@@ -1,6 +1,6 @@
 
 document.addEventListener('DOMContentLoaded', function () {
-    const form = document.getElementById('contactForm');
+    const form = document.getElementById('contato-form');
     const messageDiv = document.getElementById('form-message');
 
     form.addEventListener('submit', function (e) {

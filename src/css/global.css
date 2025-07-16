@@ -48,67 +48,20 @@ main {
   padding: 2rem 1rem;
 }
 
-section {
-  margin-bottom: 2rem;
-}
 
-section h1,
-section h2 {
-  color: var(--cor-primaria);
-  margin-bottom: 1rem;
-}
 
-/* Formulário */
-.contactForm {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  max-width: 400px;
-  padding: 2rem;
-  background: var(--cor-fundo-cinza-claro);
-  border-radius: 8px;
-}
-
-.contactForm input,
-.contactForm textarea {
-  padding: 0.75rem;
-  border: 1px solid var(--cor-primaria);
-  border-radius: 4px;
-  background: var(--cor-fundo-escuro);
-  color: var(--cor-branca);
-}
-
-.contactForm input::placeholder,
-.contactForm textarea::placeholder {
-  color: #aaa;
-}
-
-.contactForm button {
-  padding: 0.75rem;
-  background: var(--cor-primaria);
-  color: var(--cor-branca);
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.contactForm button:hover {
-  background: var(--cor-secundaria);
-}
 
 /* Rodapé */
 footer {
-   position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;  /* garante 100% da largura */
-  background: var(--cor-primaria);
-  color: var(--cor-branca);
-  padding: 1rem; /* fixo, ajusta conforme desejado */
-  text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;  /* garante 100% da largura */
+    background: var(--cor-primaria);
+    color: var(--cor-branca);
+    padding: 1rem; /* fixo, ajusta conforme desejado */
+    text-align: center;
 }
-
-
 
 .outer-shadow{
     box-shadow: 3px -3px #222237, -3px -3px 3px #454545;
@@ -131,4 +84,17 @@ footer {
 /*alinhamento vertical*/
 .redes-sociais a i{
     line-height: 40px;
+}
+.contato-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* espaçamento entre os elementos */
+  max-width: 400px; /* largura máxima opcional */
+}
+
+.contato-form input,
+.contato-form textarea,
+.contato-form button {
+  padding: 10px;
+  font-size: 16px;
 }
